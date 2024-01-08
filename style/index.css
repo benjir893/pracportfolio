@@ -1,15 +1,29 @@
 /*nave related styles*/
 .navdisplay {
+ 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.displayh3{
+.navh2displayh {
+    padding-left: 40px;
+}
+.h2display {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-left: 60px;
+    font-size: 40px;
+    
+}
+.h3display{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 30px;
+    padding: 0;
+
 }
 .displayletter{
     color: #FD6E0A;
@@ -71,14 +85,27 @@
 }
 
 /*header style*/
-.h2display {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    font-size: 30px;
-}
-.banner {
+.headerdisplay{
     background-color: #ffede1;
 }
+
+.banner {
+    
+   
+    display: flex;
+    align-content: center;
+}
+.banner .image1 {
+    width: 584px;
+    height: 676px;
+    padding-left: 20px;
+    
+}
+.insidebanner {
+   padding-top: 100px; 
+   padding-left: 70px;
+   padding-right: 60px;
+   align-items: center;
+}
+
 
