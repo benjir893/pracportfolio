@@ -154,6 +154,7 @@ body {
 }
 .skillcontainer {
     display: flex;
+    gap: 24px;
 }
 .skillheader {
     text-align: center;
@@ -162,15 +163,12 @@ body {
     text-align: center;
     padding: 0px 65px 65px 65px;
 }
-.skillcontainer{
-    padding: 5px 20px 40px 20px;
-    background-color: rgb(255, 237, 237);
-    justify-content: space-between;
-}
 .skillname {
     padding-right: 15px;
     box-sizing:border-box;
-    box-shadow: #FFF8F3;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
    
 }
 /* summary section */
@@ -185,7 +183,7 @@ body {
 .summarytitle{
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .education {
     padding: 40px;
@@ -193,6 +191,21 @@ body {
 .experience {
     padding: 40px;
 }
-
+.downloadcv {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    
+}
+.btndownloadcv {
+    text-align: center;
+}
+ 
 
 
