@@ -1,0 +1,48 @@
+/*nave related styles*/
+.navdisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.displayh3{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 60px;
+}
+.displayletter{
+    color: #FD6E0A;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.topuldisplay{
+    display: inline-flex;
+    align-items: center;
+   
+}
+.displymenue{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 60px;
+}
+.displymenuea{
+    text-emphasis: bold;
+    text-decoration: none;
+}
+.btnhireme{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    width: 80px;
+    height: 40px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
