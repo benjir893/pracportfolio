@@ -144,11 +144,55 @@ body {
 }
 .aboutdiv {
     display: flex;
-    padding-left: 145px;
+    /* justify-content: space-around; */
+    padding-left: 150px;
     
 }
 .infocontainer {
     padding-right: 75px;
+    /* text-align: center; */
 }
+.skillcontainer {
+    display: flex;
+}
+.skillheader {
+    text-align: center;
+}
+.skilldesc {
+    text-align: center;
+    padding: 0px 65px 65px 65px;
+}
+.skillcontainer{
+    padding: 5px 20px 40px 20px;
+    background-color: rgb(255, 237, 237);
+    justify-content: space-between;
+}
+.skillname {
+    padding-right: 15px;
+    box-sizing:border-box;
+    box-shadow: #FFF8F3;
+   
+}
+/* summary section */
+.summary {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.summarycontainer {
+    display: flex;
+    justify-content: space-between;
+}
+.summarytitle{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.education {
+    padding: 40px;
+}
+.experience {
+    padding: 40px;
+}
+
 
 
