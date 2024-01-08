@@ -206,6 +206,47 @@ body {
 .btndownloadcv {
     text-align: center;
 }
- 
 
+/* footer */
+.footersect {
+    display: flex;
+    height: 580px;
+    flex-shrink: 0;
+    background: #FFF8F3;
+    margin-top: 80px;
+}
+.submit {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.connect {
+    width: 50%;
+    padding: 60px;
+}
+.message {
+    width: 50%;
+    padding: 60px;
+}
+.connectlinn{
+    display: flex;
+    list-style: none;
+    
+}
+.connectlinn> .connectli {
+    padding-right: 25px;
+}
+.connectheader {
+    text-align: center;
+}
+ 
+.message input[type="text"], .message input[type="email"], textarea {
+    width: 100%;
+}
 
